@@ -1,0 +1,25 @@
+{
+    "db": {
+        "url": "http://127.0.0.1",
+        "username": "Vangel22",
+        "password": "test1234",
+        "dbname": "wbs-g2"
+    },
+    "security": {
+        "jwt_secret": "secret"
+    },
+    "services": {
+        "storage": {
+            "port": 10001
+        },
+        "auth": {
+            "port": 10002
+        },
+        "posts": {
+            "port": 10003
+        },
+        "proxy": {
+            "port": 10010
+        }
+    }
+}
